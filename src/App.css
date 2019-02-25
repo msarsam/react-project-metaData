@@ -1,0 +1,40 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+label{
+  padding-right:20px;
+  width: 130px;
+  display: inline-block;
+}
+
+input[type="text"] {
+  border-style: unset;
+  border: 1px solid #999 !important; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding:1px 2px;
+}
+
+.App {
+  text-align: left;
+  margin: 20px;
+}
+
+.App-container,.leftAlign{
+  text-align: left;
+}
+
+.App-container >div{
+  margin:2px 0px;
+}
+
+.ctrl-readOnly{ 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;      
+    background: #c7cea2;    
+}
+
